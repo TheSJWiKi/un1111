@@ -1,0 +1,161 @@
+@media screen and (min-width: 1414px) {
+  .sb-section .service:nth-of-type(4n) {
+    margin-right: -4px;
+  }
+}
+
+@media screen and (max-width: 1414px) {
+  .sidebar {
+    width: 1140px;
+  }
+  
+  .sidebar.close {
+    right: -1140px;
+  }
+  
+  .sb-section .service {
+    width: 48.75%;
+  }
+  
+  .sb-section .service:nth-of-type(2n) {
+    margin-right: -4px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .sidebar {
+    border-left: 0 !important;
+    width: 100%;
+  }
+  
+  .sidebar.close {
+    right: -100%;
+  }
+  
+  .sb-section .contact-info,
+  .sb-section .service {
+    width: 100%;
+  }
+  
+  .sb-section .contact-info {
+    text-align: left;
+  }
+  
+  .sb-section .contact-info:first-of-type {
+    margin-bottom: 0;
+    border-bottom: 5px solid #000;
+    border-right: 0;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .countdown .cd-box {
+    width: 105px;
+    height: 105px;
+  }
+  
+  .main > .main-text {
+    font-size: 28px;
+  }
+  
+  .cd-box h3 {
+    font-size: 28px;
+  }
+  
+  .cd-box span {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .main {
+    width: auto;
+  }
+  
+  .welcome-text.hide-d {
+    display: block;
+  }
+  
+  .welcome-text.hide-m {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 468px) {
+  .countdown .cd-box:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 469px) {
+  .invisible-above-sm {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .header > .c-right .icons {
+    display: none;
+  }
+  
+  .countdown .cd-box {
+    margin-bottom: 4px;
+  }
+  
+  .sb-section .main-text {
+    font-size: 32px;
+  }
+  
+  .contact-info > i {
+    display: block;
+  }
+  
+  .contact-info > span,
+  .contact-info > a {
+    margin-left: 0;
+    top: 10px;
+  }
+  
+  .newsletter > form {
+    width: 280px;
+  }
+  
+  .social-icons {
+    background-color: #ececec;
+    padding-top: 30px;
+    text-align: center;
+    display: block;
+  }
+
+  .social-icons li,
+  .social-icons a {
+    display: inline-block;
+  }
+
+  .social-icons li a {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .main-wrapper {
+    overflow: scroll;
+  }
+  
+  .particles-current .particles-js-canvas-el {
+    min-height: 561px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .header, .main, .footer {
+    position: relative;
+    z-index: 1;
+  }
+}

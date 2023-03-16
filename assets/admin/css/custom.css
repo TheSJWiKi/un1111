@@ -1,0 +1,136 @@
+.wi-tr {
+  width: 50px;
+}
+
+.pagination li,
+.pagination a {
+  display: inline-block;
+  margin-right: 3.25px;
+  min-width: 39px;
+  background-color: #ecedf1;
+  text-align: center;
+  color: #000;
+}
+
+.pagination li.active {
+  background: #476cd9;
+  color: #fff;
+}
+
+.pagination li a:hover {
+  text-decoration: none;
+}
+
+.smtp-field {
+  display: none;
+}
+
+.btn {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.h-100-vh {
+  height: 100vh;
+}
+
+.badge {
+  padding: 0.25em 1em;
+  font-size: 82%;
+}
+
+.get-data-tool {
+  cursor: pointer;
+}
+
+.alert > p:last-of-type {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  border-top: 0;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+.table td,
+.table th {
+  font-size: 13.6px;
+}
+
+.fa-info-circle.lg-size {
+  font-size: 60px;
+}
+
+span.required {
+  color: #ff1a1a;
+}
+
+.ajax-response p {
+  margin-bottom: 0;
+}
+
+.output-image {
+  background: #ecedf1;
+  padding: 7.5px 0;
+  min-height: 65px;
+}
+
+.output-image > img {
+  max-width: 140px;
+}
+
+.output-image.favicon > img {
+  margin-top: 8px;
+  width: 32px;
+  height: 32px;
+}
+
+.colors-radios {
+  height: 87px;
+}
+
+.color-wrapper input[type="radio"] {
+  opacity: 0;
+}
+
+.color-wrapper {
+  position: relative;
+  width: 55px;
+  height: 55px;
+}
+
+.color-wrapper .check-circle {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}
+
+.color-wrapper input:checked ~ .check-circle {
+  border: 2px dotted #000;
+}
+
+.color_01 {
+  background-color: #ff8888;
+}
+
+.color_02 {
+  background-color: #00fffa;
+}
+
+.color_03 {
+  background-color: #f9dc8b;
+}
+
+.color_04 {
+  background-color: #ddb5f7;
+}
